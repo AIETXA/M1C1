@@ -1,7 +1,82 @@
 .gridOne {
     display: grid;
     grid-template-columns:1fr 1fr;
+    background-color: #ece9e9;
    
 
 }
 
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.son-one {
+    background-color: red;
+}
+
+.son-two {
+    background-color: blue;
+}
+
+.son-three {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    background-color: #cbcaca;
+}
+
+.son-image img {
+    object-fit: cover;
+    width: 500px;
+    height: 225px;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#son-two-paragraphs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: rgb(170, 232, 170);
+}
+
+#son-two-images-gridfive{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+#son-two-images-gridfive img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #cbcaca;
+    width: 500px;
+}
+
+.gridSix p {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
